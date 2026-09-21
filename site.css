@@ -193,8 +193,30 @@ a {
   text-shadow: none;
 }
 
-.mobile-section-title,
+.mobile-section-title {
+  display: flex;
+  width: max-content;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 44px;
+  border: 1px solid rgba(35, 57, 72, 0.22);
+  border-radius: 999px;
+  padding: 9px 24px;
+  color: var(--sea);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.32em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .contact-section-title {
+  display: none;
+}
+
+.restaurant-feature-copy > .eyebrow,
+.location-story > .eyebrow {
   display: none;
 }
 
@@ -1991,19 +2013,23 @@ h3 {
 
   .mobile-section-title,
   .contact-section-title {
-    display: block;
-    width: min(100% - 30px, 1180px);
+    display: flex;
+    width: max-content;
+    min-height: 32px;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto 24px;
+    border: 1px solid rgba(35, 57, 72, 0.22);
+    border-radius: 999px;
+    padding: 6px 14px;
     color: var(--sea);
-    font-size: 0.72rem;
+    font-size: 0.56rem;
     font-weight: 900;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.22em;
     text-align: center;
     text-transform: uppercase;
   }
 
-  .restaurant-feature-copy > .eyebrow,
-  .location-story > .eyebrow,
   .contact-card > .contact-pill {
     display: none;
   }
