@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const formData = new FormData(form);
       const message = [
-        'Ciao Ristorante Scandalin, vorrei prenotare un tavolo.',
+        'Ciao Ristorante Scandelin, vorrei prenotare un tavolo.',
         `Nome: ${formValue(formData, 'name')}`,
         `Telefono: ${formValue(formData, 'phone')}`,
         `Data: ${formValue(formData, 'date')}`,
